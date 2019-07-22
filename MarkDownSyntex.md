@@ -45,8 +45,9 @@
 
 ## **_코드 작성_**
 
-` ``` 코드 타입 `
-`코드 내용`
+force to enter use (double space)
+` ``` 코드 타입 `  
+`코드 내용`  
 ` ``` `
 
 ```javascript
