@@ -24,3 +24,7 @@
 - typescript - [Docs](https://www.typescriptlang.org/docs/home.html)
 - ck editor - online HTML test editor
   - [ckeditor](https://ckeditor.com/ckeditor-4/)
+
+1. design Project schema almost complete
+
+- this project schema is quite more simple than before
