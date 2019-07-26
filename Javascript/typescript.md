@@ -47,3 +47,161 @@ npm install react react-dom
 ```
 npm install --save-dev @types/react @types/react-dom
 ```
+
+### install typescript compiler
+
+```
+npm init
+tsc — init
+```
+
+## type of typeScript
+
+- boolean
+
+```
+let isDone: boolean = false;
+
+```
+
+- numbers
+
+```
+let decimal: number = 6;
+let hex: number = 0xf00d;
+let binary: number = 0b1010;
+let octal: number = 0o744;
+```
+
+- string
+
+```
+let name: string = "Jayson";
+name = 'Allen';
+```
+
+- Object
+
+```
+declare function create(o: object | null): void;
+
+create({ prop: 0 }); // OK
+create(null); // OK
+
+create(42); // Error
+create("string"); // Error
+create(false); // Error
+create(undefined); // Error
+
+```
+
+- Array
+
+```
+// if array elements are Number
+let list: number[] = [1, 2, 3];
+
+// if array element is String
+let list:
+```
+
+- Tuple
+
+```
+// array which contain Number and String both
+let x: [string, number]; // type order must be correct
+```
+
+- Enum
+
+```
+enum Color {Red, Green, Blue}
+let c: Color = Color.Green;
+```
+
+- Any
+
+```
+// can be inserted any types
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false;
+```
+
+- Void
+
+```
+// similar with Any but it has no return type
+function warnUser(): void {
+    console.log("This is my warning message");
+}
+```
+
+- Null and Undefined
+
+```
+// 시작은 null, undefined 이지만 void, any처럼 어떤 값도 들어 갈 수 있다.
+// `--strictNullChecks` 와 함깨 쓰면 개꿀
+// Not much else we can assign to these variables!
+let u: undefined = undefined;
+let n: null = null;
+```
+
+- Never
+
+```
+// 별게 다 있음...
+// Function returning never must have unreachable end point
+function error(message: string): never {
+    throw new Error(message);
+}
+
+// Inferred return type is never
+function fail() {
+    return error("Something failed");
+}
+
+// Function returning never must have unreachable end point
+function infiniteLoop(): never {
+    while (true) {
+    }
+}
+
+```
+
+## typescript usage
+
+- typescript 파일 형식 : \*.ts
+- tsc fileName : javascript로 파일 변환 (default ES3)
+- tsc fileName -t es6 : 특정 옵션으로 변환 ( 예: ES6 )
+- 변환시 확장자명 생략 가능, 여러개 동시 변환 가능 (ex. tsc fileOne fileTwo \*.ts)
+- tsc fileName --watch : 변경사항 자동 감지 및 변환
+- 변수 대입 : 백틱 안에 변수 대입 (ex. `${variable}`)
+- example.code
+
+```
+function sum(a: number, b: number) {
+  return a + b;
+}
+
+sum('x', 'y');
+```
+
+```
+// person.ts
+class Person {
+  private name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  sayHello() {
+    return "Hello, " + this.name;
+  }
+}
+
+const person = new Person('Lee');
+
+console.log(person.sayHello());
+```
