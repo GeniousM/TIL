@@ -1,6 +1,6 @@
 ## **_2019.07.22 (mon)_**
 
-# keyword
+### keyword
 
 - ant design - framework
 - bootstrap - framework
@@ -28,3 +28,17 @@
 1. design Project schema almost complete
 
 - this project schema is quite more simple than before
+
+## **_2019.07.25 (thu)_**
+
+### keyword
+
+- node-fetch
+
+## **_2019.07.26 (fri)_**
+
+### keyword
+
+- learned total GraphQL in nomad-coders --- need to write about graphQL
+- start lecture of offline GraphQL app
+- typeScript setting

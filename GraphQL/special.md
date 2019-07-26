@@ -17,3 +17,11 @@
 1. define schema - data that we send or get
 
 1. easy to check APIs made before
+
+1. when sand many data ->
+
+```
+type Query {
+    people: [person]!
+}
+```
