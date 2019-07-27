@@ -42,3 +42,9 @@
 - learned total GraphQL in nomad-coders --- need to write about graphQL
 - start lecture of offline GraphQL app
 - typeScript setting
+
+## **_2019.07.27 (sat)_**
+
+### keyword
+
+- babel : 최신의 javascript, es6 문법을 서버(nodejs) 환경에서 돌아 갈 수 있게 컴파일(or 변환?) 시켜주는 모듈(? 라이브러리? 패키지? 프레임워크?)
