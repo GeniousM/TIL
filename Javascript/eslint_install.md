@@ -1,5 +1,7 @@
 # Install ESLint
 
+yarn add -D eslint prettier @typescript-eslint/{eslint-plugin,parser} eslint-config-{airbnb,prettier} eslint-plugin-{import,jest,jsx-a11y,prettier,react,react-hooks}
+
 1. Local Install
 
    - begin install start

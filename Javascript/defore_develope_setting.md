@@ -11,6 +11,7 @@ Client setting options
 Serveer setting option
 
 -
+
 - babel
 
 ## Client All in One
@@ -43,6 +44,19 @@ yarn add antd
 ```
 yarn add --dev tslint-config-airbnb
 ```
+
+```
+npm install eslint-config-airbnb-typescript \
+            eslint-plugin-import@^2.14.0 \
+            eslint-plugin-jsx-a11y@^6.1.1 \
+            eslint-plugin-react@^7.11.0 \
+            @typescript-eslint/eslint-plugin@^1.11.0 \
+            --save-dev
+
+npm install eslint-config-airbnb-typescript eslint-plugin-import@^2.14.0 eslint-plugin-jsx-a11y@^6.1.1 eslint-plugin-react@^7.11.0 @typescript-eslint/eslint-plugin@^1.11.0 --save-dev
+```
+
+## next
 
 1. only Prettier
    1. install Prettier
