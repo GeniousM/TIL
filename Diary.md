@@ -48,3 +48,12 @@
 ### keyword
 
 - babel : 최신의 javascript, es6 문법을 서버(nodejs) 환경에서 돌아 갈 수 있게 컴파일(or 변환?) 시켜주는 모듈(? 라이브러리? 패키지? 프레임워크?)
+
+## **_2019.07.29 (mon)_**
+
+### keyword
+
+- today i will learn ant design
+- gatsby blog
+
+- so sick that i couldn't write TIL
